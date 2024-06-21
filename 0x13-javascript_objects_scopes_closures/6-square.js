@@ -1,10 +1,10 @@
 #!/usr/bin/node
 
-const Rectangle = require('./5-square.js');
+const Parent = require('./5-square.js');
 
-class Square extends Rectangle {
+class Square extends Parent {
   charPrint (c) {
-    if (c === undefined) (c = 'x');
+    if (c === undefined) (c = 'X');
     for (let i = 0; i < this.height; i++) ('c'.repeat(this.width));
   }
 }
