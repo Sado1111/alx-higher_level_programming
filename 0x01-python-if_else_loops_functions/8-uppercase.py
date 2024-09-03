@@ -11,4 +11,8 @@ Tips: ord()
 
 def uppercase(str):
     for i in str:
-        if i.isalpha()
+        if i.isalpha():
+            if 97 <= ord(i) <= 122:
+                i = chr(ord(i) - 32)
+        print('{}'.format(i), end='')
+    print()
