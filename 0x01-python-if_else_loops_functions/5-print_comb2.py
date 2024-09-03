@@ -8,7 +8,6 @@ You can only use no more than 2 print functions with string format
 You can only use one loop in your code
 """
 
-for x in range(10):
-    for y in range(10):
-        print('{}{}'.format(x, y), end='' if x == 9 and y == 9 else ', ')
+for i in range(100):
+    print('{:02d}'.format(i), end=', ' if i != 99 else '')
 print()
