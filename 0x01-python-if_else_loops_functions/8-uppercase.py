@@ -11,9 +11,10 @@ Tips: ord()
 
 
 def uppercase(str):
+    new_str = ''
     for i in str:
         if i.isalpha():
             if 97 <= ord(i) <= 122:
                 i = chr(ord(i) - 32)
-        print('{}'.format(i), end='')
-    print(''.format())
+        new_str += i
+    print('{}'.format(new_str))
