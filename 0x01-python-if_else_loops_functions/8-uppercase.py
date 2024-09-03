@@ -9,6 +9,7 @@ You are not allowed to use str.upper() and str.isupper()
 Tips: ord()
 """
 
+
 def uppercase(str):
     for i in str:
         if i.isalpha():
