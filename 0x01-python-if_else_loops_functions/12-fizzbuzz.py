@@ -19,7 +19,7 @@ def fizzbuzz():
         elif i % 3 == 0:
             print('Fizz', end=' ')
         elif i % 5 == 0:
-            print('Buzz', end=' ')
+            print('Buzz', end=' ' if i != 100 else '')
         else:
             print('{}'.format(i), end=' ')
     print()
