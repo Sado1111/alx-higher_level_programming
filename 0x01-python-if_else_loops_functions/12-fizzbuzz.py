@@ -22,4 +22,3 @@ def fizzbuzz():
             print('Buzz', end=' ' if i != 100 else '')
         else:
             print('{}'.format(i), end=' ')
-    print()
