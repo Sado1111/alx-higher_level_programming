@@ -5,10 +5,8 @@ program that imports the function def add(a, b):
 """
 
 
-from 0-import_add import add
-
 if __name__ == "__main__":
-    """    from add_0 import add   """
+    from 0-import_add import add
 
     a = 1
     b = 2
