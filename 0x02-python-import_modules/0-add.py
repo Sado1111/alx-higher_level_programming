@@ -10,5 +10,5 @@ if __name__ == "__main__":
 
     a = 1
     b = 2
-    sums = int(add(a, b))
+    sums = int(add(1, 2))
     print("{} + {} = {:d}".format(a, b, sums))
