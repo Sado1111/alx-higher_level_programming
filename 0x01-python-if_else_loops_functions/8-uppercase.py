@@ -9,7 +9,7 @@ You are not allowed to use str.upper() and str.isupper()
 Tips: ord()
 """
 
-
+"""
 def uppercase(str):
     new_str = ''
     for i in str:
@@ -18,3 +18,12 @@ def uppercase(str):
                 i = chr(ord(i) - 32)
         new_str += i
     print('{}'.format(new_str))
+"""
+
+
+def uppercase(str):
+    for ch in str:
+        if 97 <= ord(ch) <= 122:
+            ch = chr(ord(ch) - 32)
+        print('{:s}'.format(ch), end='')
+    print()
