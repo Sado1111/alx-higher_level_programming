@@ -9,9 +9,10 @@ You are not allowed to use str.replace()
 
 
 def no_c(my_string):
-    if my_string:
+    if my_stringi:
+        new_str = ''
         for ch in my_string:
             if ch == 'c' or ch == 'C':
                 ch = ''
-            print("{}".format(ch), end='')
-        print()
+            new_str += ch
+        return new_str
