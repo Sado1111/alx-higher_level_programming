@@ -13,6 +13,6 @@ function that prints a dictionary by ordered keys.
 """
 
 
-def print_sorted_dictionary(a_dictionary):
+def print_sorted_dictionary(a_dictionary.items()):
     for key, value in sorted(a_dictionary):
         print('{}: {}'.format(key, value))
